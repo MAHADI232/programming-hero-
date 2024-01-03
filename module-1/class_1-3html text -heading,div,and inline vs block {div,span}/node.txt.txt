@@ -1,0 +1,4 @@
+node 1 => code spell checker app (vs code). extention
+heading =>h1-h6.
+inline => span, em, strong, i,  small, b, 
+block => h1, p, div,

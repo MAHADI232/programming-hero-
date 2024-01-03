@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background:rgba(184, 198, 243, 0.419) 
+}
+.main_header{
+    background-color: rgba(95, 158, 160, 0.359);
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+.main_header ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 100px;
+    color:green ;
+}
+.main_header li{
+    border: none;
+    text-transform: capitalize;
+    margin: 0px 12px;
+    margin-top: 1px;
+    color: red;
+}
+.main_header a{
+    text-decoration: none; 
+}
+.main_header input{
+ padding: 0px 10px ;
+ font-size: 17px;
+ border: none;
+ border-radius: 2px;
+}
+/* main header the end */
+.hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+   
+}
+.container-div{
+     background-color: rgba(2, 2, 74, 0.947); 
+     padding: 15px;
+}
+.hed ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+     font-size: 17px;
+}
+.hed li,a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: azure;
+   
+}
+.hed li a:hover{
+    color: brown;
+}
+h3{
+    color: red;
+
+}
+span{
+    color: rgb(232, 0, 244);
+    font-size: 35px;
+}
+/* header end */
+ .main_container .container{
+    text-align: center;
+    background: url(img/cover.jpg);
+    padding: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container h2{
+    margin: 20px 0px;
+    color: rgb(229, 198, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container p{
+    margin: 25px 0px;
+    color: rgb(0, 31, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container button{
+    padding: 7px 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    
+}
+
+.templete_section{
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+}
+.templete_section .container img{
+    width: 100%;
+    margin-top: 30px;
+}
+.templete_section h1{
+    margin-top: 30px;
+}
+.templete_section .container p{
+   margin-top: 50px;
+    font-size: 20px;
+}
+/* templete section end  */
+.video-effect-section .container{
+    text-align: center;
+    background-color: rgb(224, 252, 252);
+    
+}
+.video-effect-section .container h1 {
+ padding-top: 40px;
+ padding-bottom: 30px;
+ display: inline-block;
+ font-family: Arial, Helvetica, sans-serif;
+}
+iframe{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+iframe:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
