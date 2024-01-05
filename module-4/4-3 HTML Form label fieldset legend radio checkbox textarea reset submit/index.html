@@ -14,44 +14,57 @@
     <main>
         <section class="form-list">
             <form action="">
-                <h2>please fill up the form </h2>
-                <label for="">your name:
-                    <input type="text" id="name" class="name" placeholder="enter your name">
-                </label>
-                <label for="">your email:
-                    <input type="email" id="emaile" class="name" placeholder="enter your name">
-                </label>
-                <label for="">your phone:
-                    <input type="phone" id="phone" class="name" placeholder="enter your name">
-                </label>
-
+                <div class="form_div">
+                        <h2>please fill up the form </h2>
+                        <!-- <label for="">your name:
+                            <input type="text" id="name" class="name" placeholder="enter your name">
+                        </label>
+                        <label for="">your email:
+                            <input type="email" id="emaile" class="name" placeholder="enter your name">
+                        </label>
+                        <label for="">your phone:
+                            <input type="phone" id="phone" class="name" placeholder="enter your name">
+                        </label> -->
+                     <label for="">
+                        <h3>your name : </h3>
+                        <input type="text" id="name" placeholder="enter your name">
+                     </label>
+                     <label for=""> 
+                        <h3>your phone : </h3>
+                        <input type="phone" id="phone" placeholder="+880 ### ### ####">
+                     </label>
+                     <label for="">
+                        <h3>your password :</h3>
+                        <input type="password" id="password">
+                     </label>
+                    </div>    
                 <fieldset>
-                    <legend>pick on food</legend>
+                    <legend><span>p</span>ick on food</legend>
                     <label for="bapa pitha">
-                              <input type="radio" name="food" id="bpa pitha ">mango
+                              <input type="radio" name="food" id="bpa pitha "> mango
                     </label>
                     <label for="">
-                       <input type="radio" name="food" id="apple">apple
+                       <input type="radio" name="food" id="apple"> apple
                     </label>
                     <label for="">
-                        <input type="radio" name="food" id="orrange"  >orrange
+                        <input type="radio" name="food" id="orrange"  > orrange
                     </label>
                 </fieldset>
 
                 <fieldset>
-                    <legend>name</legend>
+                    <legend><span>name</span></legend>
                         <label for="mahadi">
-                          <input type="checkbox" name="tanzila" id="tanzila">tanzila
+                          <input type="checkbox" name="tanzila" id="tanzila"> tanzila
                         </label>
                         <label for="mahadi">
-                          <input type="checkbox" name="hasan" id="hasan">hasan
+                          <input type="checkbox" name="hasan" id="hasan"> hasan
                         </label>
                         <label for="mahadi">
                           <input type="checkbox" name="mahadi" id="mahadi"> mahadi
                         </label>
                 </fieldset>
                 <fieldset>
-                    <legend>spacial instuture</legend>
+                    <legend><span>s</span>pacial instuture</legend>
                     <textarea name="" id="" cols="30" rows="5"></textarea>
                 </fieldset>
                 <input type="reset" value="reset">
