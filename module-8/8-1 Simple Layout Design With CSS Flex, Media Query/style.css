@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    background-color: rgb(2, 2, 69);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;color: aliceblue;
+
+}
+@media screen  and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+}

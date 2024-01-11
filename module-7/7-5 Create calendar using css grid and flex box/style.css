@@ -1,0 +1,16 @@
+.calander-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 10px;
+   
+
+}
+.date{
+    border: 2px solid green;
+    padding: 5px;
+    text-align: center;
+  
+}
+.day{
+    text-align: center;
+}

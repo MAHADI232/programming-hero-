@@ -1,0 +1,16 @@
+.food{
+    border: 2px solid red;
+    padding: 20px;
+    width: 300px;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+
+}

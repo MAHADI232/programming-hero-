@@ -1,0 +1,19 @@
+body{
+    border: 1px solid red;
+    max-width: 1100px;margin: 0 auto;
+}
+.imag-container{
+    display: flex;
+    align-items: center;
+}
+.content{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+     .imag-container{
+        flex-direction: column;
+     }
+    }
