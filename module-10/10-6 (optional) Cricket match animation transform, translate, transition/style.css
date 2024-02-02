@@ -1,0 +1,28 @@
+.field{
+    border: 2px solid;
+    
+   
+}
+img{
+   transition:transform 0.2s; 
+}
+ .field:hover img{
+  transform: rotate(-60deg); 
+  transform-origin: top right; 
+ 
+}
+.ball{
+
+    background-color: darkblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 250px;
+    transition: transform ease-out 0.5s;
+}
+
+.field:hover .ball{
+    transform: translate(500px)
+}

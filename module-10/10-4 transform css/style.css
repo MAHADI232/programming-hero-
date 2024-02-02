@@ -1,0 +1,24 @@
+.container ,.inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.inner{
+    border: 2px solid rgb(220, 220, 220);
+    background-color: blueviolet;
+    /* transform: scale(0.25, 0.5); */
+    /* transform: rotate(-30deg);
+    transform: rotate(30deg); */
+    /* transform: scale(0.40) rotate(45deg) ; */
+    transition: 0.5s;
+   
+
+
+}
+.inner:hover{
+   transform: scale(0.5)  rotate(45deg);  
+
+} 
