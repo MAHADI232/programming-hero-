@@ -1,0 +1,16 @@
+{
+  "name": "module-19.5",
+  "version": "1.0.0",
+  "description": " practice task",
+  "main": "arry&subjects.js",
+  "scripts": {
+    "start": "node arry&subjects.js",
+    "dev" : "nodemon arry&subjects.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

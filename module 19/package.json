@@ -1,0 +1,16 @@
+{
+  "name": "module-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "object.js",
+  "scripts": {
+       "start": "node object.js",
+       "dev"  : "nodemon object.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

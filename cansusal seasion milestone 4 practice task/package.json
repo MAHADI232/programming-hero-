@@ -1,0 +1,17 @@
+{
+  "name": "cansusal-seasion-milestone-4-practice-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seation step .js",
+  "scripts": {
+    "start" : " node seation step .js",
+    "dev"  : " nodemon seation step .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}

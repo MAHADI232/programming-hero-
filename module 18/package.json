@@ -1,0 +1,16 @@
+{
+  "name": "module-18",
+  "version": "1.0.0",
+  "description": " loop video practice task",
+  "main": "while.js",
+  "scripts": {
+    "start" : "node while.js",
+    "dev"   : " nodemon while.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

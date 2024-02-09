@@ -1,0 +1,17 @@
+{
+  "name": "js-bmi-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ternary.js",
+  "scripts": {
+    "start": "node  ternary.js ",
+    "dev" : "nodemon  ternary.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
