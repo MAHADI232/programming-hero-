@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geometry game</title>
+    <!-- desiUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+     <header>
+
+     </header>
+           <!-- main content -->
+        <main class="m-8">
+                        <!-- <main card container! -->
+                          <div class="flex ">
+                            <!-- card container -->
+                            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                              <!--card-1 tringle-->
+                              <div class="card max-w-80 bg-base-100 shadow-xl">
+                                <figure><img src="images/triangle.png" alt="triangle" /></figure>
+                                <div class="card-body">
+                                  <h2 class="text-3xl text-center">Triangre</h2>
+                                  <p class="text-xl text-center"> Area (A) = 0.5 X b X h</p>
+                                     <!-- input base -->
+                                     <div class=" flex gap-2 items-center text-center">
+                                      <input id="triangle-base" class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                      <input id="triangle-height" class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                     </div><!--input base-->
+                                      <!-- output base -->
+                                      <div class="">
+                                          <p class="text-2xl">Area : <span id="tringle-output-base">0</span> <span>cm<sup>2</sup></span> </p>
+                                      </div><!--output base-->
+                                    <div class="card-actions justify-end">
+                                      <button id="calculate-Triangle-Area" class="btn btn-primary w-full my-4">calculate</button>
+                                  </div>
+                                </div>
+                              </div><!--card-1-->
+
+                              <!--card-2 rectangle-->
+                              <div class="card max-w-80 bg-base-100 shadow-xl">
+                                <figure><img src="images/rectangle.png" alt="rectangle" /></figure>
+                                <div class="card-body">
+                                  <h2 class="text-3xl text-center">rectangle</h2>
+                                  <p class="text-xl text-center"> Area (A) = w X l</p>
+                                     <!-- input cm -->
+                                     <div class=" flex gap-2 items-center text-center">
+                                      <input id="rectangle-area" class="w-24 p-2 " type="text" placeholder="width">
+                                      <span>cm</span>
+                                      <input id="rectangle-height" class="w-24 p-2 " type="text" placeholder="length">
+                                      <span>cm</span>
+                                     </div><!--input cm-->
+                                      <!-- output base -->
+                                      <div class="">
+                                        <p class="text-2xl">Area : <span id="rectangle-output-base">0</span> <span>cm<sup>2</sup></span> </p>
+                                    </div><!--output base-->
+                                    <div class="card-actions justify-end">
+                                      <button id="calculate-rectangle-area" class="btn btn-primary w-full my-4">calculate</button>
+                                  </div>
+                                </div>
+                              </div><!--card-2-->
+
+                              <!--card-3 parallelogram-->
+                              <div class="card max-w-80 bg-base-100 shadow-xl">
+                                <figure><img src="images/parallelogram.png" alt="parallelogram" /></figure>
+                                <div class="card-body">
+                                  <h2 class="text-3xl text-center">parallaleogram</h2>
+                                  <p class="text-xl text-center"> Area (A) = 0.5 X b X h</p>
+                                     <!-- input cm -->
+                                     <div class=" flex gap-2 items-center text-center">
+                                      <input id="parallelogram-base-input" class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                      <input id="parallelogram-height" class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                     </div><!--input cm-->
+                                      <!-- output base -->
+                                      <div class="">
+                                        <p class="text-2xl">Area : <span id="parallaleogram-output">0</span> <span>cm<sup>2</sup></span> </p>
+                                    </div><!--output base-->
+                                    <div class="card-actions justify-end">
+                                      <button id="parallelogram-btn" class="btn btn-primary w-full my-4">calculate</button>
+                                  </div>
+                                </div>
+                              </div><!--card-3-->
+                              <!--card-4-->
+                              <div class="card max-w-80 bg-base-100 shadow-xl">
+                                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                  <h2 class="text-3xl text-center">Triangre</h2>
+                                  <p class="text-xl text-center"> Area (A) = 0.5 X b X h</p>
+                                     <!-- input cm -->
+                                     <div class=" flex gap-2 items-center text-center">
+                                      <input class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                      <input class="w-24 p-2 " type="text" placeholder="b">
+                                      <span>cm</span>
+                                     </div><!--input cm-->
+                                    <div class="card-actions justify-end">
+                                      <button class="btn btn-primary w-full my-4">calculate</button>
+                                  </div>
+                                </div>
+                              </div><!--card-4-->
+                            </div><!-- card container -->
+
+                              <!-- calculate div -->
+                              <div class="w-96 border rounded-md border-red-500 ">
+                                   <h2 class="text-3xl capitalize p-4"> calculation</h2>
+                              </div>
+
+                          </div><!-- <main card container! -->
+      
+        </main>
+              <!--javasript link-->
+              <script src="js/tringle.js"></script><!--tringle ja-->
+              <script src="js/rectangle.js"></script> <!--rectangle.js-->
+               <script src="js/parallegram.js"></script><!--parallelogram.js-->
+              
+    
+</body>
+</html>
